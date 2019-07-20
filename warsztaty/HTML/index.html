@@ -7,16 +7,20 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="https://formspree.io/sara.kordonowska@hotmail.com" method="FORM">
-        <label for="name">Imię i Nazwisko</label>
-        <input type="text" name="imię i nazwisko" id="imię i nazwisko"><br>
+    <form action="https://formspree.io/sara.kordonowska@hotmail.com" method="POST">
+        <label for="imię i nazwisko">Imię i Nazwisko</label>
+        <input type="text" name="imię i nazwisko" id="imię i nazwisko">
+        <br>
         <label for="email">E-mail</label>
-        <input type="email" name="email" id="email"><br>
+        <input type="email" name="email" id="email">
+        <br>
         <label for="telefon">Telefon</label>
-        <input type="tel" name="telefon" id="telefon"><br>
+        <input type="tel" name="telefon" id="telefon">
+        <br>
         <label for="wiadomość">Wiadomość</label>
-        <textarea name="wiadomość" id="wiadomość" placeholder="wpisz coś"><br>
-        <input type="submit" value="Wyślij">
+        <textarea name="wiadomość" cols="30" rows="10" maxlength="100" id="wiadomość"></textarea>
+            <br>
+        <input type="submit" value="Send">
     </form>
 
 </body>
