@@ -1,0 +1,32 @@
+* {
+    color: purple;
+}
+body {
+    background-color: seagreen;
+}
+p {
+    background-color: darkgoldenrod;
+}
+
+#kasia {
+    background-color:  greenyellow;
+}
+
+#lorak {
+    background-color: brown;
+}
+
+ul a {
+    columns: #ff023f;
+}
+
+a > span {
+    background-color: grey;
+}
+li#pierwszy ~ li {
+    background-color: turquoise;
+}
+
+li#pierwszy + li {
+    background-color: blueviolet;
+}

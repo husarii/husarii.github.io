@@ -1,0 +1,31 @@
+#p1 {
+    background-color: aquamarine;
+}
+
+#p2 {
+    background-color: azure;
+}
+
+#inline-elements p {
+    display: inline;
+}
+
+#inline-p1 {
+    background-color: blanchedalmond;
+}
+
+#inline-p2 {
+    background-color: crimson;
+}
+
+#inline-block-elements li {
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    margin: 5px;
+    background-color: aquamarine;
+}
+
+#display-none{
+    display: none;
+}
