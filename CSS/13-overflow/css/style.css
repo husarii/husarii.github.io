@@ -1,0 +1,30 @@
+.box {
+    width: 400px;
+    height: 100px;
+    border: 1px solid indianred;
+    padding: 5px;
+    margin: 40px;
+    background-color: blanchedalmond;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#visible {
+    overflow: visible;
+    color: violet;
+}
+
+#hidden {
+    overflow: hidden;
+    color:royalblue;
+}
+
+#scroll {
+    overflow: scroll;
+    color: darkmagenta;
+}
+
+#auto {
+    overflow: auto;
+    color: deeppink;
+}
