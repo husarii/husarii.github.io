@@ -1,23 +1,23 @@
-@media (min-width:992px) {
+@media screen and (min-width: 993px) {
     #gallery {
-        width: 32%;
+        width: 95%;
     }
     figure {
-        width: 32%;
+        width: 33%;
     }
 }
 
-@media (min-width:768px) and (max-width:992px) {
+@media screen and (min-width: 769px) and (max-width: 992px) {
     #gallery {
-        width: 49%;
+        width: 95%;
     }
     figure {
         width: 49%;
     }
 }
-@media (min-width: 480px) and (max-width: 768px) {
+@media screen and (min-width: 481px) and (max-width: 768px) {
     #gallery {
-        width: 70%;
+        width: 95%;
     }
     figure {
         width: 70%;
