@@ -1,0 +1,11 @@
+* {
+    background-color: aqua;
+
+}
+.flex-item {
+    color: #66ff00;
+    font-family: 'Lato', sans-serif;
+    padding: 10px;
+    margin: 3px;
+    background-color: lightcyan;
+}
