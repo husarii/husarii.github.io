@@ -157,6 +157,9 @@ form input[type="submit"]:hover {
     color: #007bff;
     padding: 1%;
 }
+.social-links a:hover {
+    color:  #777;
+}
 footer {
     background-color: #f2f1ed;
     padding: 30px;
