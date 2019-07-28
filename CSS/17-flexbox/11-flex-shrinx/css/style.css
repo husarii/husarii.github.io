@@ -1,0 +1,19 @@
+.flex-item {
+    color: teal;
+    font-family: 'Lato', sans-serif;
+    padding: 10px;
+    margin: 3px;
+    background-color: lightcyan;
+    flex-basis: 5%;
+    flex-shrink: 2;
+    }
+
+.flex-item:nth-last-of-type(odd) {
+    background-color: lightpink;
+     }
+
+.container {
+    border: 2px dashed rgba(0, 204, 255, 0.932);
+    display: flex;
+}
+
