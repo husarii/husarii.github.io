@@ -122,14 +122,14 @@ form input[type="text"], form input[type="email"] {
     width: 200px;
     background-color:#fff;
     color: #333;
-    border: 1px solid  #777;
+    border: 1px solid darkgray;
     height: 30px;
     font-family: 'Open Sans', sans-serif;
     margin: 10px 0;
 }
 form textarea {
     width: 405px;
-    border: 1px solid #777;
+    border: 1px solid darkgray;
     height: 100px;
     font-family: 'Open Sans', sans-serif;
     text-align: left;

@@ -1,0 +1,14 @@
+@media screen and (min-width:481px) and (max-width:768px) {
+    .portfolio-item {
+        flex-basis: 95%;
+        flex-grow: 1;
+        margin: 0;
+        padding: 0;
+    }
+    .portfolio-wrapper {
+        margin: 0;
+    }
+    .main-header-content {
+        padding: 37% 5px;
+    }
+}
