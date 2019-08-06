@@ -4,14 +4,17 @@
 body {
     font-family: Verdana, sans-serif;
     color: #fff;
-    }
+    margin: 0;
+}
 @media screen and (min-width: 1171px) {
     .main-header {
         background-image: url(../img/man-1.jpg);
         background-size: cover;
         background-repeat: no-repeat;
-        height: 100vh;
-        width: 210vh;
+        background-attachment: fixed;
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
         margin: 0;
         padding: 0;
     }
@@ -26,26 +29,30 @@ body {
     .main-header {
         background-image: url(../img/man-2.jpg);
         background-size: cover;
-        height: 60vh;
-        width: 85vh;
+        background-attachment: fixed;
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
     }
     div {
         text-align: left;
         padding: 15% 0;
-        margin-left: 60%;
+        margin-left: 65%;
     }
 }
 @media screen and (max-width:992px) {
     .main-header {
         background-image: url(../img/man-1.jpg);
         background-size: contain;
-        width: 75vh;
-        height: 45vh;
-    }
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        width: 100%;
+        height: 60vh;
+}
     div {
+        position: relative;
         text-align: center;
         color: black;
-        padding: 60% 0;
-        margin-left: -10vh;
+        padding: 70% 0;
     }
 }
