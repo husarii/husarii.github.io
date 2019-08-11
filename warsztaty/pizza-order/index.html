@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Warsztaty Pizza-order</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 id="header-main">Zamów Pizzę</h1>
+    </header>
+    <form id="formularz" action="">
+        Imię: <input type="text" id="imie" name="imie">
+        <br>
+        Nazwisko: <input type="text" id="nazwisko" name="nazwisko">
+        <br>
+        Ulica: <input type="text" id="ulica" name="ulica">
+        <br>
+        Nr domu/mieszkania: <input type="text" id="numerdomu" name="numerdomu">
+        <br>
+        Kod pocztowy: <input type="text" id="kod" name="kod">
+        <br>
+        Miasto: <input type="text" id="miasto" name="miasto">
+        <br>
+        Pizza: <select id="pizza">
+            <option value="0">--Wybierz pizzę--</option>
+            <option value="1">Margharita</option>
+            <option value="2">Pepperoni</option>
+            <option value="3">Siciliana</option>
+            <option value="4">Buffala</option>
+            <option value="5">Quattro Formaggi</option>
+        </select> 
+        <span id = "cena"> 
+            
+        </span>
+        <br>
+        Sosy: <input type="checkbox" id="sospo" name="pomidorowy"> Pomidorowy <input type="checkbox" id="soscz" name="czosnkowy">Czosnkowy
+        <br>
+        Zgoda: <input type="checkbox" id="zgoda" name="zgoda"> Wyrażam zgodę na przetwarzanie danych
+        <br>
+        <button type="button" id="przycisk"> Złóż Zamówienie </button>
+        </form> 
+        <ul id="ostrzezenia">
+
+        </ul>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

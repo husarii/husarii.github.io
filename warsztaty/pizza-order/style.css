@@ -1,0 +1,32 @@
+* {
+    margin: 10px;
+    font: 
+}
+
+body {
+    background-color: azure;
+    font-family: "Calibri";
+}
+
+#przycisk {
+    border-color: gray;
+    font-family: "Calibri";
+    font-size: 15px;
+
+}
+
+#przycisk:hover {
+    background-color: teal;
+}
+
+input, button {
+    margin-left: 10px;
+}
+
+ul {
+    color: red;
+}
+
+/* #fname, #lname, #email, #checkbox {
+    display: none;
+} */
