@@ -1,17 +1,18 @@
 let tablica = [12, 67, 34, 23.01, 24, 2, 56, 8, 0x10, 23.02, 78, 34, 1e2, 45, 67, 98, 1]
 
-function sortowanie() {
+function sortowanie(n) {
   
-  for (i = 0; i < tablica.length; i++) {
+  for (i = 0; i < n.length; i++) {
 
-      for (j = 1; j < tablica.length; j++){
+      for (j = 1; j < n.length; j++){
 
-        if (tablica[j-1] > tablica[j]) {
+        if (n[j-1] > n[j]) {
 
-            [tablica[j-1], tablica[j]] = [tablica[j], tablica[j-1]];
+            [n[j-1], n[j]] = [n[j], n[j-1]];
         }
       }
   }
-return tablica
+console.log(n);
+return n
 }
-console.log(sortowanie())
+sortowanie(tablica)

@@ -5,30 +5,34 @@ function getData() {
     .then(response=>{
         console.log(response);
 
-        let przedziałka = document.createElement('hr');
-        document.body.appendChild( przedziałka );
+        let begin = document.createElement('p');
+        begin.innerHTML = '---------BEGINING OF DATA----------';
+        document.body.appendChild( begin );
 
         for(i=0; i < response.length; i++) {
             let paragraphId = document.createElement('p');
             let paragraphName = document.createElement('p');
             let paragraphUrl = document.createElement('p');
-            
+           
             paragraphId.innerHTML = 'User ID:' + response[i].id;
             document.body.appendChild( paragraphId );
 
             paragraphName.innerHTML = 'User Name:' + response[i].name;
             document.body.appendChild( paragraphName );
 
-            paragraphUrl.innerHTML = 'User Website:' + response[i].website;
+            paragraphUrl.innerHTML = 'User Website: http://' + response[i].website + '<br>--------';
             document.body.appendChild( paragraphUrl );
                               
         }
         
-        
+        let end = document.createElement('p');
+        end.innerHTML = '---------END OF DATA----------<br><br><br><br>';
+        document.body.appendChild( end );
     })
 }
 
 getData()
+
 
 window.onscroll = function() {
     let d = document.documentElement;
