@@ -1,0 +1,73 @@
+*{
+    font-family: 'Raleway', sans-serif;
+}
+nav {
+    background-color:#444;
+    color: #c2c2c2;
+    padding: 5px;
+}
+.btn {p
+    height: 3rem;
+}
+.headerDiv {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-image: url(img/form-background.jpg);
+    background-position: top;
+    background-size: cover;
+    color: white;
+}
+.naglowekFormularza {
+    background-color: rgba(0, 0, 0, 0.35);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+p {
+   color: #c2c2c2;
+}
+.wypelnij {
+    font-size: 13px;
+}
+.fa-pencil-alt {
+    font-size: 50;
+    color: #c2c2c2;
+    padding: 10px;
+}
+.formularz {
+    background-color: rgba(0, 0, 0, 0.3); 
+}
+.btn-formularz {
+    width: 100%;
+    background-color: orange;
+    border:none;
+}
+.swiatText{
+    padding-top: 120px;
+}
+.swiat {
+    font-weight: bold;
+}
+.btn-swiat-1 {
+    background-color:orange;
+    border: none;
+}
+.btn-swiat-2 {
+    background-color:rgba(0, 0, 0, 0.3);
+    border: none;
+}
+section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+footer {
+    background-color: #f8f8f8 ;
+    padding-top: 120px;
+    padding-bottom: 130px;
+}
+
+a {
+    color: orange;
+}
+.jasneTlo {
+    color: #888;
+}

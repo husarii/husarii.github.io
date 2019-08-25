@@ -1,0 +1,21 @@
+body {
+    background-color: bisque;
+}
+.example {
+    height: 250px;
+    background-color: teal;
+}
+
+.example2 {
+    height: 100px;
+    background-color: olivedrab;
+}
+
+.item {
+    height: 350px;
+    background-color: chocolate;
+    border: 1px solid greenyellow;
+}
+.item:nth-child(2n) {
+    background-color: hotpink;
+}
