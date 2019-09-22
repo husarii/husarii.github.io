@@ -1,0 +1,227 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    color:#BFBFBF;
+    padding: 0;
+    margin: 0;
+}
+section {
+    text-align: center;
+    padding: 5% 0;
+}
+section header {
+    margin-bottom: 55px;
+}
+.main-header {
+    height: 80vh;
+    background-image: url(../img/statue1.jpg);
+    background-size: cover;
+    background-position: top;
+    justify-content: center;
+    align-items: right;
+    text-align: right;
+    padding-right: 6em;
+}
+.main-header-content {
+    padding: 10% 0px;
+}
+.main-header-content h1 {
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 4em;
+    margin: 0;
+    color:#F2EEEB
+}
+.main-header-content p{
+    font-size: 1.5em;
+    font-family: 'Montserrat', sans-serif;
+    margin: 40px 0;
+    color:#F2EEEB;
+}
+.main-header-content span {
+    color:#BFBFBF;
+}
+.button {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    border: 1px solid #BFBFBF;
+    border-radius: 12px;
+    margin: auto;
+    display: inline-block;
+    padding: 15px 20px;
+    transition: all 1s;
+    color:#BFBFBF;
+    background-color: transparent;
+}
+.button:hover {
+    background-color: #BFBFBF;
+    color: #0896A6;
+    text-decoration: none;
+}
+hr {
+    background-color:#0896A6;
+    width: 100px;
+    height: 1px;
+    border: 0;
+    align-items: right;
+    text-align: right;
+}
+h2 {
+    margin-bottom: 20px;
+    color: #333;
+    text-transform: uppercase;
+    font-family: 'Fredericka the Great', cursive;
+}
+nav {
+    background-color: #fff;
+    text-align: center;
+    padding: 5px 5px;
+    margin: 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    font-weight: 700;
+    }
+
+a {
+    color: #F2EEEB;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+.font-text{
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 2rem;
+}
+/* nav li {
+    display: inline-block;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 15px;
+    } */
+#about {
+    background-color: #F2EEEB;
+}
+.about-image {
+    border-radius: 300px;
+    max-width: 300px;
+    max-height: 300px;
+    margin-bottom: 1em;
+}
+.about {
+    max-width: 700px;
+    margin: 40px auto 30px auto;
+    font-family: 'Montserrat', sans-serif;
+}
+.faq-header {
+    font-family: 'Fredericka the Great', cursive;
+    color: black;
+    border: 1px solid #BFBFBF;
+    border-radius: 12px;
+    margin: auto;
+    display: inline-block;
+    padding: 15px 20px;
+    transition: all 1s;
+}
+.faq-header:hover {
+    background-color: #0896A6;
+    text-decoration: none;
+    color:black;
+}
+.panel-body {
+    font-family: 'Montserrat', sans-serif;
+}
+#portfolio {
+    background-color:  #fff;
+}
+.kolo {
+    display: inline-block;
+    width:100px;
+    height:100px;
+    border-radius: 50%;
+    background-color: #0896A6;
+}
+
+i {
+    color:#F2EEEB;
+    font-size: 3rem;
+    padding-top: 1.5rem;
+}
+#portfolio h3 {
+    display: none;
+}
+#contact{
+    background-color:  #F2EEEB;
+}
+form input[type="text"], form input[type="email"] {
+    width: 200px;
+    background-color:#fff;
+    color: #333;
+    border: 1px solid darkgray;
+    height: 30px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+form textarea {
+    width: 405px;
+    border: 1px solid darkgray;
+    border-radius: 5px;
+    height: 100px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    margin-bottom: 10px;
+}
+form input[type="submit"]{
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    border: 1px solid #BFBFBF;
+    margin: auto;
+    display: inline-block;
+    padding: 15px 20px;
+    transition: all 1s;
+    color: #333;
+    background-color: transparent;
+    margin-bottom: 20px;
+}
+form input[type="submit"]:hover {
+    background-color: #BFBFBF;
+    color: #0896A6;
+    text-decoration: none;
+}
+.soc {
+    height: 20px;
+    width: 20px;
+    color: #0896A6;
+    padding: 10%;
+}
+.soc:hover {
+    color:  #777;
+}
+footer {
+    background-color: #0896A6;
+    padding: 30px;
+    text-align: center;
+    color:#F2EEEB;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+}
+.kolo:hover {
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
